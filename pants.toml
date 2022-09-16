@@ -9,5 +9,10 @@ backend_packages.add = [
 
 use_deprecated_directory_cli_args_semantics = false
 
+[source]
+root_patterns = [
+  '/project',
+]
+
 [anonymous-telemetry]
 enabled = false
