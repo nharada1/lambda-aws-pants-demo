@@ -7,6 +7,6 @@ python_awslambda(
 )
 
 docker_image(
-    name="my_image",
+    name="myimage",
     dependencies = [":lambda"],
 )
